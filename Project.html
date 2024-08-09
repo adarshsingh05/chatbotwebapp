@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- inserting the google icon and fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <header class="header">
+
+    <div class="ourheader">
+
+      <div class="mynewdiv">
+        <div class="imagedive">
+          <img id="newimage" src="ailogo.png" alt="">
+        </div>
+  
+      <h2 class="title">Welcome to AI-Siddharsh!!</h2>
+      
+      </div>
+
+      <h4 class="subtitle">How May I help you Today ??</h4>
+
+    </div>
+
+    <!-- section 02 -->
+
+      <ul class="suggestion-list">
+        <li class="suggestion">
+          
+            <div class="textdiv">
+          <h4 class="text">
+            Help pe find out top 5 best Self Help Books under Rs1000
+          </h4>
+        
+          
+        </div>
+          <!--- for the google icon -->
+          <span class="material-symbols-outlined"> explore </span>
+        </li>
+
+        <li class="suggestion">
+          <h4 class="text">
+            Give me top 10 facts about Osho Rajneesh and his Cult
+          </h4>
+          <!--- for the google icon -->
+          <span class="material-symbols-outlined"> lightbulb </span>
+        </li>
+
+        <li class="suggestion">
+          <h4 class="text">
+            Whats the difference between Existenstialism and Nihilism Philosophy
+          </h4>
+          <!--- for the google icon -->
+          <span class="material-symbols-outlined"> draw </span>
+        </li>
+
+        <li class="suggestion">
+          <h4 class="text">
+            Give me HTML and CSS code for a basic portfolio
+          </h4>
+          <!--- for the google icon -->
+          <span class="material-symbols-outlined"> code </span>
+        </li>
+      </ul>
+    </header>
+
+    <!-- creating the chat list for the user -->
+     <div class="chat-list">
+      <!-- <div class="message outgoing">
+        <div class="message-content">
+          <img src="user.jpg" alt="User Image" class="avatar">
+          <p class="text">Lorem ipsum dolor sit amet co numquam hic possimus, mollitia eum quos. obis natus, voluptate </p>
+        </div>
+      </div>
+
+      <div class="message incoming">
+        <div class="message-content">
+          <img src="ailogo.svg" alt="AI Image" class="avatar">
+          <p class="text">Lorem ipsum dolor sit amet co numquam hic possimus, mollitia eum quos. obis natus, voluptate </p>
+        </div> -->
+
+        <!-- adding the copy button only for the message incoming -->
+       <div class="action-buttons">
+        <span class="icon material-symbols-outlined">content_copy</span>          
+     </div>     
+
+    <!-- creating the loading bar -->
+<!-- <div class="message incoming loading">
+      <div class="message-content">
+        <img src="ailogo.svg" alt="AI Image" class="avatar">
+        <p class="text">Lorem ipsum dolor sit amet co numquam hic possimus, mollitia eum quos. obis natus, voluptate </p>
+      <div class="loading-indicator">
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+      </div>
+      </div>
+
+      
+     <div class="action-buttons">
+      <span class="icon material-symbols-outlined">content_copy</span>          
+  </div>     -->
+
+      </div>
+       
+
+     </div>
+
+    <!-- our first div for the typing area -->
+    <div class="typing-area">
+      <form action="#" class="typing-form">
+        <div class="input-wrapper">
+          <input
+            type="text"
+            placeholder="Enter Your Promt Here! "
+            class="typing-input"required>
+          <button style="height: 60px;" class="icon material-symbols-outlined">send</button>
+        
+        </div>
+
+          <!-- second div for the action button -->
+          <div class="action-buttons">
+            <span style="height: 60px;"  id= "toggle-theme-button" class="icon material-symbols-outlined">light_mode </span>
+             
+          </div>
+          <span style="height: 60px;" id="delete-chat-button" class="icon material-symbols-outlined">delete</span>
+      </form>
+
+      <p class="disclaimer-text">
+        This AI may display inaccurate info, including about people, place or
+        things, so double check its response.
+      </p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
